@@ -10,19 +10,19 @@
 
     <Grid>
         <Button x:Name="btnStackPanel" Content="StackPanelDemo" 
-        HorizontalAlignment="Center" Margin="0,83,0,0" 
+        HorizontalAlignment="Center" Margin="0,100,0,0" 
         VerticalAlignment="Top" Width="148" Click="btnStackPanel_Click" />
         <Button x:Name="btnWrapPannel" Content="WrapPannelDemo" 
-        HorizontalAlignment="Center" Margin="0,147,0,0" 
+        HorizontalAlignment="Center" Margin="0,150,0,0" 
         VerticalAlignment="Top" Width="148" Click="btnWrapPannel_Click" />
         <Button x:Name="btnCanvasPannel" Content="CanvasPannelDemo" 
-        HorizontalAlignment="Center" Margin="0,202,0,0" 
-        VerticalAlignment="Top" Width="148" Click="btnCanvasPannel_Click" />
+        HorizontalAlignment="Center" 
+        VerticalAlignment="Center" Width="148" Click="btnCanvasPannel_Click" />
         <Button x:Name="btnDockPannel" Content="DockPannelDemo" 
-            HorizontalAlignment="Center" Margin="0,256,0,0" 
+            HorizontalAlignment="Center" Margin="0,250,0,0" 
             VerticalAlignment="Top" Width="148" Click="btnDockPannel_Click" />
         <Button x:Name="btnGridDemo" Content="GridDemo" 
-            HorizontalAlignment="Center" Margin="0,315,0,0" 
+            HorizontalAlignment="Center" Margin="0,300,0,0" 
             VerticalAlignment="Top" Width="148" Click="btnGridDemo_Click" />
     </Grid>
 </Window>
