@@ -50,5 +50,17 @@ namespace CChavezWPFLayoutDemo
             Window window = new GridDemo();
             window.Show();
         }
+
+        private void btnRunawayButton_Click(object sender, RoutedEventArgs e)
+        {
+            Window window = new RunawayButtonDemo();
+            window.Show();
+        }
+
+        private void btnDragAndDropButton_Click(object sender, RoutedEventArgs e)
+        {
+            Window window = new DragAndDropDemo();
+            window.Show();
+        }
     }
 }

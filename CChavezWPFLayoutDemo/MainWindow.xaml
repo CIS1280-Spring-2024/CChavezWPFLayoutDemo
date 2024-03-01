@@ -24,5 +24,11 @@
         <Button x:Name="btnGridDemo" Content="GridDemo" 
             HorizontalAlignment="Center" Margin="0,300,0,0" 
             VerticalAlignment="Top" Width="148" Click="btnGridDemo_Click" />
+        <Button x:Name="btnRunawayButtonDemo" Content="RunawayButtonDemo" 
+            HorizontalAlignment="Center" Margin="0,325,0,0" 
+            VerticalAlignment="Top" Width="148" Click="btnRunawayButton_Click" />
+        <Button x:Name="btnDragAndDropDemo_Copy" Content="DragAndDropDemo" 
+            HorizontalAlignment="Center" Margin="0,369,0,0" 
+            VerticalAlignment="Top" Width="148" Click="btnDragAndDropButton_Click" />
     </Grid>
 </Window>
